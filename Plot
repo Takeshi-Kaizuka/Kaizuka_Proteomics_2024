@@ -1,0 +1,111 @@
+# Fig.1e
+x <- cbind(
+c(0.960658737419945,0.254452926208651,0.962463907603465,1.3262599469496),
+c(2.19579139981702,1.27226463104326,1.4436958614052,3.71352785145889),
+c(4.66605672461116,3.05343511450382,4.52358036573628,5.70291777188329),
+c(4.11710887465691,2.54452926208651,3.94610202117421,5.17241379310345),
+c(4.71180237877402,2.29007633587786,4.42733397497594,6.36604774535809),
+c(4.94053064958829,2.79898218829517,4.61982675649663,6.49867374005305),
+c(4.48307410795974,2.29007633587786,5.00481231953802,4.90716180371353),
+c(4.89478499542543,4.58015267175572,4.90856592877767,5.03978779840849),
+c(5.90118938700823,5.85241730279898,6.54475457170356,5.03978779840849),
+c(5.58096980786825,5.59796437659033,5.87102983638114,5.17241379310345),
+c(6.67886550777676,4.32569974554707,7.98845043310876,6.10079575596817),
+c(7.59377859103385,7.12468193384224,8.56592877767084,6.49867374005305),
+c(8.23421774931382,9.66921119592875,7.69971126082772,8.22281167108753),
+c(8.23421774931382,7.12468193384224,9.33589990375361,7.29442970822281),
+c(9.24062214089662,13.7404580152672,8.18094321462945,8.35543766578249),
+c(8.41720036596523,12.9770992366412,7.60346487006737,7.16180371352785),
+c(9.14913083257091,14.5038167938931,8.37343599615014,7.42705570291777)
+)
+my.col1 <- colorRampPalette(c("red","white","blue")) 
+barplot(t(x), col = my.col1(17))
+
+# Fig.2b (DDP)
+proteome <- read.table("Data_Fig2b_DDP_All.txt", header=T)
+mean <- read.table("Data_Fig2b_DDP_Mean.txt", header=T)
+matplot(proteome, xlim=c(1,4), ylim=c(0,3),
+	type="l", lty="solid", col = rgb(0.5, 0.5, 1),
+	xlab = "Age", ylab = "Relative Abundance", main = "DDP") 
+par(new=T)
+matplot(mean, xlim=c(1,4), ylim=c(0,3),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.2b (DIP)
+proteome <- read.table("Data_Fig2b_DIP_All.txt", header=T)
+mean <- read.table("Data_Fig2b_DIP_Mean.txt", header=T)
+matplot(proteome, xlim=c(1,4), ylim=c(0,3),
+	type="l", lty="solid", col = rgb(1, 0.5, 0.5),
+	xlab = "Age", ylab = "Relative Abundance", main = "DIP") 
+par(new=T)
+matplot(mean, xlim=c(1,4), ylim=c(0,3),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.3b (DDP-M mRNA)
+transcriptome <- read.table("Data_Fig3b_DDP-M_All.txt", header=T)
+mean <- read.table("Data_Fig3b_DDP-M_Mean.txt", header=T)
+matplot(transcriptome, xlim=c(1,9), ylim=c(0,3),
+	type="l", lty="solid", col = rgb(0.5, 0.5, 1),
+	xlab = "Age", ylab = "Relative Abundance", main = "DDP-M") 
+par(new=T)
+matplot(mean, xlim=c(1,9), ylim=c(0,3),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.3b (DIP-M mRNA)
+transcriptome <- read.table("Data_Fig3b_DIP-M_All.txt", header=T)
+mean <- read.table("Data_Fig3b_DIP-M_Mean.txt", header=T)
+matplot(transcriptome, xlim=c(1,9), ylim=c(0,3),
+	type="l", lty="solid", col = rgb(1, 0.5, 0.5),
+	xlab = "Age", ylab = "Relative Abundance", main = "DIP-M") 
+par(new=T)
+matplot(mean, xlim=c(1,9), ylim=c(0,3),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.6e (Late DDP)
+proteome <- read.table("Data_Fig6e_Late-DDP_All.txt", header=T)
+mean <- read.table("Data_Fig6e_Late-DDP_Mean.txt", header=T)
+matplot(proteome, xlim=c(1,5), ylim=c(0,3.5),
+	type="l", lty="solid", col = rgb(0.5, 0.5, 1),
+	xlab = "Age", ylab = "Relative Abundance", main = "Late-DDP") 
+par(new=T)
+matplot(mean, xlim=c(1,5), ylim=c(0,3.5),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.6e (Late DIP)
+proteome <- read.table("Data_Fig6e_Late-DIP_All.txt", header=T)
+mean <- read.table("Data_Fig6e_Late-DIP_Mean.txt", header=T)
+matplot(proteome, xlim=c(1,5), ylim=c(0,3),
+	type="l", lty="solid", col = rgb(1, 0.5, 0.5),
+	xlab = "Age", ylab = "Relative Abundance", main = "Late-DIP") 
+par(new=T)
+matplot(mean, xlim=c(1,5), ylim=c(0,3),
+	type="l", lty="solid", lwd = 3, col = 1,
+	ylab = "Relative Abundance")
+
+# Fig.S2b
+x <- cbind(
+c(0,0.452488687782805),
+c(0,1.80995475113122),
+c(2.5,0.452488687782805),
+c(0,0.904977375565611),
+c(2.5,0.904977375565611),
+c(0,0.452488687782805),
+c(2.5,1.80995475113122),
+c(2.5,2.26244343891403),
+c(5,2.71493212669683),
+c(5,1.80995475113122),
+c(5,2.71493212669683),
+c(10,7.23981900452489),
+c(15,4.52488687782805),
+c(7.5,7.23981900452489),
+c(7.5,14.9321266968326),
+c(20,16.7420814479638),
+c(15,33.0316742081448)
+)
+my.col1 <- colorRampPalette(c("red","white","blue")) 
+barplot(t(x), col = my.col1(17))
