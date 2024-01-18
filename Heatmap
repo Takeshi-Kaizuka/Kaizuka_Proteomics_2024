@@ -1,0 +1,328 @@
+# Fig.1b
+proteome <- read.table("Data_Fig1b.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.3a (Dataset 1, DDP)
+proteome <- read.table("Data_Fig3a_Dataset1_DDP.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.3a (Dataset 1, DIP)
+proteome <- read.table("Data_Fig3a_Dataset1_DIP.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.3a (Dataset 2, DDP)
+proteome <- read.table("Data_Fig3a_Dataset2_DDP.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.3a (Dataset 2, DIP)
+proteome <- read.table("Data_Fig3a_Dataset2_DIP.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.4a (DDP-M)
+proteome <- read.table("Data_Fig4a_DDP-M.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.4a (DIP-M)
+proteome <- read.table("Data_Fig4a_DIP-M.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.5b
+proteome <- read.table("Data_Fig5b.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.5c
+proteome <- read.table("Data_Fig5c.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = bluered(256),
+  breaks=seq(0.45,0.75,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Correlaton Coefficient"
+)
+
+# Fig.5d
+proteome <- read.table("Data_Fig5d.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","yellow","red","brown")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,0.8,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Spearman's CC"
+)
+
+# Fig.7c
+proteome <- read.table("Data_Fig7c.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-2,2,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S2a
+proteome <- read.table("Data_FigS2a.txt", row.names = 1, header=T)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","yellow","red","brown"))
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,4,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Detection"
+)
+
+# Fig.S7a (DDP-M)
+proteome <- read.table("Data_FigS7a_DDP-M.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S7a (DIP-M)
+proteome <- read.table("Data_FigS7a_DIP-M.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S9b
+proteome <- read.table("Data_FigS9b.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","red")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,10,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "-logP values"
+)
+
+# Fig.S9c (DDP-MH)
+proteome <- read.table("Data_FigS9c_DDP-MH.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","black")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "H3K27ac"
+)
+
+# Fig.S9c (DIP-MH)
+proteome <- read.table("Data_FigS9c_DIP-MH.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","black")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "H3K27ac"
+)
+
+# Fig.S13b
+proteome <- read.table("Data_FigS13b.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S14c
+proteome <- read.table("Data_FigS14c.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S14e
+proteome <- read.table("Data_FigS14e.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "row", Rowv = TRUE, Colv = NA,
+  col = bluered(256),
+  breaks=seq(-3,3,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Expression pattern"
+)
+
+# Fig.S15c
+proteome <- read.table("Data_FigS15c.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = bluered(256),
+  breaks=seq(0.25,0.7,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Correlaton Coefficient"
+)
+
+# Fig.S15d
+proteome <- read.table("Data_FigS15d.txt", header=F)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","yellow","red","brown")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,0.8,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "Spearman's CC"
+)
+
+# Fig.S17a
+proteome <- read.table("Data_FigS17a.txt", header=T)
+data <- as.matrix(proteome)
+library(gplots)
+my.col1 <- colorRampPalette(c("white","yellow","red","brown")) 
+heatmap.2(
+  data, scale = "none",
+  dendrogram = "none", Rowv = NA, Colv = NA,
+  col = my.col1(256),
+  breaks=seq(0,10,length.out=257),
+  trace = "none",
+  density.info=c("none"),
+  main = "-logP values"
+)
