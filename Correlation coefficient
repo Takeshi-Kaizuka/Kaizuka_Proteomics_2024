@@ -1,0 +1,621 @@
+# Fig.5c
+data <- read.table("Data_Fig5c_CC.txt", header=T)
+x1 <- data[,1]
+x2 <- data[,2]
+x3 <- data[,3]
+x4 <- data[,4]
+x5 <- data[,5]
+x6 <- data[,6]
+x7 <- data[,7]
+x8 <- data[,8]
+y1 <- data[,9]
+y2 <- data[,10]
+y3 <- data[,11]
+y4 <- data[,12]
+y5 <- data[,13]
+y6 <- data[,14]
+y7 <- data[,15]
+y8 <- data[,16]
+y9 <- data[,17]
+y10 <- data[,18]
+pe <-cor.test(x1, y1,  method = "pearson")
+pe
+pe <-cor.test(x1, y2,  method = "pearson")
+pe
+pe <-cor.test(x1, y3,  method = "pearson")
+pe
+pe <-cor.test(x1, y4,  method = "pearson")
+pe
+pe <-cor.test(x1, y5,  method = "pearson")
+pe
+pe <-cor.test(x1, y6,  method = "pearson")
+pe
+pe <-cor.test(x1, y7,  method = "pearson")
+pe
+pe <-cor.test(x1, y8,  method = "pearson")
+pe
+pe <-cor.test(x1, y9,  method = "pearson")
+pe
+pe <-cor.test(x1, y10,  method = "pearson")
+pe
+pe <-cor.test(x2, y1,  method = "pearson")
+pe
+pe <-cor.test(x2, y2,  method = "pearson")
+pe
+pe <-cor.test(x2, y3,  method = "pearson")
+pe
+pe <-cor.test(x2, y4,  method = "pearson")
+pe
+pe <-cor.test(x2, y5,  method = "pearson")
+pe
+pe <-cor.test(x2, y6,  method = "pearson")
+pe
+pe <-cor.test(x2, y7,  method = "pearson")
+pe
+pe <-cor.test(x2, y8,  method = "pearson")
+pe
+pe <-cor.test(x2, y9,  method = "pearson")
+pe
+pe <-cor.test(x2, y10,  method = "pearson")
+pe
+pe <-cor.test(x3, y1,  method = "pearson")
+pe
+pe <-cor.test(x3, y2,  method = "pearson")
+pe
+pe <-cor.test(x3, y3,  method = "pearson")
+pe
+pe <-cor.test(x3, y4,  method = "pearson")
+pe
+pe <-cor.test(x3, y5,  method = "pearson")
+pe
+pe <-cor.test(x3, y6,  method = "pearson")
+pe
+pe <-cor.test(x3, y7,  method = "pearson")
+pe
+pe <-cor.test(x3, y8,  method = "pearson")
+pe
+pe <-cor.test(x3, y9,  method = "pearson")
+pe
+pe <-cor.test(x3, y10,  method = "pearson")
+pe
+pe <-cor.test(x4, y1,  method = "pearson")
+pe
+pe <-cor.test(x4, y2,  method = "pearson")
+pe
+pe <-cor.test(x4, y3,  method = "pearson")
+pe
+pe <-cor.test(x4, y4,  method = "pearson")
+pe
+pe <-cor.test(x4, y5,  method = "pearson")
+pe
+pe <-cor.test(x4, y6,  method = "pearson")
+pe
+pe <-cor.test(x4, y7,  method = "pearson")
+pe
+pe <-cor.test(x4, y8,  method = "pearson")
+pe
+pe <-cor.test(x4, y9,  method = "pearson")
+pe
+pe <-cor.test(x4, y10,  method = "pearson")
+pe
+pe <-cor.test(x5, y1,  method = "pearson")
+pe
+pe <-cor.test(x5, y2,  method = "pearson")
+pe
+pe <-cor.test(x5, y3,  method = "pearson")
+pe
+pe <-cor.test(x5, y4,  method = "pearson")
+pe
+pe <-cor.test(x5, y5,  method = "pearson")
+pe
+pe <-cor.test(x5, y6,  method = "pearson")
+pe
+pe <-cor.test(x5, y7,  method = "pearson")
+pe
+pe <-cor.test(x5, y8,  method = "pearson")
+pe
+pe <-cor.test(x5, y9,  method = "pearson")
+pe
+pe <-cor.test(x5, y10,  method = "pearson")
+pe
+pe <-cor.test(x6, y1,  method = "pearson")
+pe
+pe <-cor.test(x6, y2,  method = "pearson")
+pe
+pe <-cor.test(x6, y3,  method = "pearson")
+pe
+pe <-cor.test(x6, y4,  method = "pearson")
+pe
+pe <-cor.test(x6, y5,  method = "pearson")
+pe
+pe <-cor.test(x6, y6,  method = "pearson")
+pe
+pe <-cor.test(x6, y7,  method = "pearson")
+pe
+pe <-cor.test(x6, y8,  method = "pearson")
+pe
+pe <-cor.test(x6, y9,  method = "pearson")
+pe
+pe <-cor.test(x6, y10,  method = "pearson")
+pe
+pe <-cor.test(x7, y1,  method = "pearson")
+pe
+pe <-cor.test(x7, y2,  method = "pearson")
+pe
+pe <-cor.test(x7, y3,  method = "pearson")
+pe
+pe <-cor.test(x7, y4,  method = "pearson")
+pe
+pe <-cor.test(x7, y5,  method = "pearson")
+pe
+pe <-cor.test(x7, y6,  method = "pearson")
+pe
+pe <-cor.test(x7, y7,  method = "pearson")
+pe
+pe <-cor.test(x7, y8,  method = "pearson")
+pe
+pe <-cor.test(x7, y9,  method = "pearson")
+pe
+pe <-cor.test(x7, y10,  method = "pearson")
+pe
+pe <-cor.test(x8, y1,  method = "pearson")
+pe
+pe <-cor.test(x8, y2,  method = "pearson")
+pe
+pe <-cor.test(x8, y3,  method = "pearson")
+pe
+pe <-cor.test(x8, y4,  method = "pearson")
+pe
+pe <-cor.test(x8, y5,  method = "pearson")
+pe
+pe <-cor.test(x8, y6,  method = "pearson")
+pe
+pe <-cor.test(x8, y7,  method = "pearson")
+pe
+pe <-cor.test(x8, y8,  method = "pearson")
+pe
+pe <-cor.test(x8, y9,  method = "pearson")
+pe
+pe <-cor.test(x8, y10,  method = "pearson")
+pe
+
+# Fig.5d (Total)
+data <- read.table("Data_Fig5d_CC_All.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+y2 <- data[,3]
+y3 <- data[,4]
+y4 <- data[,5]
+y5 <- data[,6]
+y6 <- data[,7]
+y7 <- data[,8]
+y8 <- data[,9]
+y9 <- data[,10]
+y10 <- data[,11]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+sp <-cor.test(x1, y2,  method = "spearman")
+sp
+sp <-cor.test(x1, y3,  method = "spearman")
+sp
+sp <-cor.test(x1, y4,  method = "spearman")
+sp
+sp <-cor.test(x1, y5,  method = "spearman")
+sp
+sp <-cor.test(x1, y6,  method = "spearman")
+sp
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
+sp <-cor.test(x1, y8,  method = "spearman")
+sp
+sp <-cor.test(x1, y9,  method = "spearman")
+sp
+sp <-cor.test(x1, y10,  method = "spearman")
+sp
+
+# Fig.5d (DDP-MH & DIP-MH)
+data <- read.table("Data_Fig5d_CC_DDPandDIP-MH.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+y2 <- data[,3]
+y3 <- data[,4]
+y4 <- data[,5]
+y5 <- data[,6]
+y6 <- data[,7]
+y7 <- data[,8]
+y8 <- data[,9]
+y9 <- data[,10]
+y10 <- data[,11]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+sp <-cor.test(x1, y2,  method = "spearman")
+sp
+sp <-cor.test(x1, y3,  method = "spearman")
+sp
+sp <-cor.test(x1, y4,  method = "spearman")
+sp
+sp <-cor.test(x1, y5,  method = "spearman")
+sp
+sp <-cor.test(x1, y6,  method = "spearman")
+sp
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
+sp <-cor.test(x1, y8,  method = "spearman")
+sp
+sp <-cor.test(x1, y9,  method = "spearman")
+sp
+sp <-cor.test(x1, y10,  method = "spearman")
+sp
+
+# Fig.5e (Data also shown in Fig.5d)
+data <- read.table("Data_Fig5d_CC_DDPandDIP-MH.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.6b (Data also shown in Fig.5d)
+data <- read.table("Data_Fig5d_CC_DDPandDIP-MH.txt", header=T)
+x1 <- data[,1]
+y7 <- data[,8]
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
+
+# Fig.6c
+data <- read.table("Data_Fig6c_CC", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.7b
+data <- read.table("Data_Fig7b_CC.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.S5a (Dataset 1)
+data <- read.table("Data_FigS5a_CC_Dataset1_E14.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_E16.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_P0.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_P4.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_P7.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_P15.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset1_P30.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.S5a (Dataset 2)
+data <- read.table("Data_FigS5a_CC_Dataset2_P4.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset2_P6.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset2_P8.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset2_P10.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+data <- read.table("Data_FigS5a_CC_Dataset2_P14.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.S14f
+data <- read.table("Data_FigS14f_CC.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.S14g
+data <- read.table("Data_Fig14g_CC.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+
+# Fig.S15c
+data <- read.table("Data_FigS15c_CC.txt", header=T)
+x1 <- data[,1]
+x2 <- data[,2]
+x3 <- data[,3]
+x4 <- data[,4]
+x5 <- data[,5]
+x6 <- data[,6]
+x7 <- data[,7]
+x8 <- data[,8]
+y1 <- data[,9]
+y2 <- data[,10]
+y3 <- data[,11]
+y4 <- data[,12]
+y5 <- data[,13]
+y6 <- data[,14]
+y7 <- data[,15]
+y8 <- data[,16]
+y9 <- data[,17]
+y10 <- data[,18]
+pe <-cor.test(x1, y1,  method = "pearson")
+pe
+pe <-cor.test(x1, y2,  method = "pearson")
+pe
+pe <-cor.test(x1, y3,  method = "pearson")
+pe
+pe <-cor.test(x1, y4,  method = "pearson")
+pe
+pe <-cor.test(x1, y5,  method = "pearson")
+pe
+pe <-cor.test(x1, y6,  method = "pearson")
+pe
+pe <-cor.test(x1, y7,  method = "pearson")
+pe
+pe <-cor.test(x1, y8,  method = "pearson")
+pe
+pe <-cor.test(x1, y9,  method = "pearson")
+pe
+pe <-cor.test(x1, y10,  method = "pearson")
+pe
+pe <-cor.test(x2, y1,  method = "pearson")
+pe
+pe <-cor.test(x2, y2,  method = "pearson")
+pe
+pe <-cor.test(x2, y3,  method = "pearson")
+pe
+pe <-cor.test(x2, y4,  method = "pearson")
+pe
+pe <-cor.test(x2, y5,  method = "pearson")
+pe
+pe <-cor.test(x2, y6,  method = "pearson")
+pe
+pe <-cor.test(x2, y7,  method = "pearson")
+pe
+pe <-cor.test(x2, y8,  method = "pearson")
+pe
+pe <-cor.test(x2, y9,  method = "pearson")
+pe
+pe <-cor.test(x2, y10,  method = "pearson")
+pe
+pe <-cor.test(x3, y1,  method = "pearson")
+pe
+pe <-cor.test(x3, y2,  method = "pearson")
+pe
+pe <-cor.test(x3, y3,  method = "pearson")
+pe
+pe <-cor.test(x3, y4,  method = "pearson")
+pe
+pe <-cor.test(x3, y5,  method = "pearson")
+pe
+pe <-cor.test(x3, y6,  method = "pearson")
+pe
+pe <-cor.test(x3, y7,  method = "pearson")
+pe
+pe <-cor.test(x3, y8,  method = "pearson")
+pe
+pe <-cor.test(x3, y9,  method = "pearson")
+pe
+pe <-cor.test(x3, y10,  method = "pearson")
+pe
+pe <-cor.test(x4, y1,  method = "pearson")
+pe
+pe <-cor.test(x4, y2,  method = "pearson")
+pe
+pe <-cor.test(x4, y3,  method = "pearson")
+pe
+pe <-cor.test(x4, y4,  method = "pearson")
+pe
+pe <-cor.test(x4, y5,  method = "pearson")
+pe
+pe <-cor.test(x4, y6,  method = "pearson")
+pe
+pe <-cor.test(x4, y7,  method = "pearson")
+pe
+pe <-cor.test(x4, y8,  method = "pearson")
+pe
+pe <-cor.test(x4, y9,  method = "pearson")
+pe
+pe <-cor.test(x4, y10,  method = "pearson")
+pe
+pe <-cor.test(x5, y1,  method = "pearson")
+pe
+pe <-cor.test(x5, y2,  method = "pearson")
+pe
+pe <-cor.test(x5, y3,  method = "pearson")
+pe
+pe <-cor.test(x5, y4,  method = "pearson")
+pe
+pe <-cor.test(x5, y5,  method = "pearson")
+pe
+pe <-cor.test(x5, y6,  method = "pearson")
+pe
+pe <-cor.test(x5, y7,  method = "pearson")
+pe
+pe <-cor.test(x5, y8,  method = "pearson")
+pe
+pe <-cor.test(x5, y9,  method = "pearson")
+pe
+pe <-cor.test(x5, y10,  method = "pearson")
+pe
+pe <-cor.test(x6, y1,  method = "pearson")
+pe
+pe <-cor.test(x6, y2,  method = "pearson")
+pe
+pe <-cor.test(x6, y3,  method = "pearson")
+pe
+pe <-cor.test(x6, y4,  method = "pearson")
+pe
+pe <-cor.test(x6, y5,  method = "pearson")
+pe
+pe <-cor.test(x6, y6,  method = "pearson")
+pe
+pe <-cor.test(x6, y7,  method = "pearson")
+pe
+pe <-cor.test(x6, y8,  method = "pearson")
+pe
+pe <-cor.test(x6, y9,  method = "pearson")
+pe
+pe <-cor.test(x6, y10,  method = "pearson")
+pe
+pe <-cor.test(x7, y1,  method = "pearson")
+pe
+pe <-cor.test(x7, y2,  method = "pearson")
+pe
+pe <-cor.test(x7, y3,  method = "pearson")
+pe
+pe <-cor.test(x7, y4,  method = "pearson")
+pe
+pe <-cor.test(x7, y5,  method = "pearson")
+pe
+pe <-cor.test(x7, y6,  method = "pearson")
+pe
+pe <-cor.test(x7, y7,  method = "pearson")
+pe
+pe <-cor.test(x7, y8,  method = "pearson")
+pe
+pe <-cor.test(x7, y9,  method = "pearson")
+pe
+pe <-cor.test(x7, y10,  method = "pearson")
+pe
+pe <-cor.test(x8, y1,  method = "pearson")
+pe
+pe <-cor.test(x8, y2,  method = "pearson")
+pe
+pe <-cor.test(x8, y3,  method = "pearson")
+pe
+pe <-cor.test(x8, y4,  method = "pearson")
+pe
+pe <-cor.test(x8, y5,  method = "pearson")
+pe
+pe <-cor.test(x8, y6,  method = "pearson")
+pe
+pe <-cor.test(x8, y7,  method = "pearson")
+pe
+pe <-cor.test(x8, y8,  method = "pearson")
+pe
+pe <-cor.test(x8, y9,  method = "pearson")
+pe
+pe <-cor.test(x8, y10,  method = "pearson")
+pe
+
+# Fig.S15d (Total)
+data <- read.table("Data_FigS15d_CC_All.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+y2 <- data[,3]
+y3 <- data[,4]
+y4 <- data[,5]
+y5 <- data[,6]
+y6 <- data[,7]
+y7 <- data[,8]
+y8 <- data[,9]
+y9 <- data[,10]
+y10 <- data[,11]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+sp <-cor.test(x1, y2,  method = "spearman")
+sp
+sp <-cor.test(x1, y3,  method = "spearman")
+sp
+sp <-cor.test(x1, y4,  method = "spearman")
+sp
+sp <-cor.test(x1, y5,  method = "spearman")
+sp
+sp <-cor.test(x1, y6,  method = "spearman")
+sp
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
+sp <-cor.test(x1, y8,  method = "spearman")
+sp
+sp <-cor.test(x1, y9,  method = "spearman")
+sp
+sp <-cor.test(x1, y10,  method = "spearman")
+sp
+sp
+
+# Fig.S15d (DDP-MH & DIP-MH)
+data <- read.table("Data_FigS15d_CC_DDPandDIP-MH.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+y2 <- data[,3]
+y3 <- data[,4]
+y4 <- data[,5]
+y5 <- data[,6]
+y6 <- data[,7]
+y7 <- data[,8]
+y8 <- data[,9]
+y9 <- data[,10]
+y10 <- data[,11]
+sp <-cor.test(x1, y1,  method = "spearman")
+sp
+sp <-cor.test(x1, y2,  method = "spearman")
+sp
+sp <-cor.test(x1, y3,  method = "spearman")
+sp
+sp <-cor.test(x1, y4,  method = "spearman")
+sp
+sp <-cor.test(x1, y5,  method = "spearman")
+sp
+sp <-cor.test(x1, y6,  method = "spearman")
+sp
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
+sp <-cor.test(x1, y8,  method = "spearman")
+sp
+sp <-cor.test(x1, y9,  method = "spearman")
+sp
+sp <-cor.test(x1, y10,  method = "spearman")
+sp
+
+# Fig.S15e (Data also shown in Fig.S15d)
+data <- read.table("Data_FigS15d_CC_DDPandDIP-MH.txt", header=T)
+x1 <- data[,1]
+y7 <- data[,8]
+sp <-cor.test(x1, y7,  method = "spearman")
+sp
