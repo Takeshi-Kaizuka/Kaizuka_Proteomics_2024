@@ -1,0 +1,11 @@
+# Fig.1c
+proteome <- read.table("Data_Fig1c.txt", header=T)
+library(NbClust)
+
+#  determining the number of clusters
+nb <- NbClust(proteome, distance = "euclidean", min.nc = 2,
+        max.nc = 15, method = "kmeans", index ="all")
+
+# k-means clustering
+km.res <- kmeans(proteome, 3, nstart = 25)
+km.res$cluster
