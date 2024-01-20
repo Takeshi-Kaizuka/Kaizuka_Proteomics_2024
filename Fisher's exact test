@@ -1,0 +1,127 @@
+# Fig.7a (Enrichment of DE genes)
+
+# All PSD vs Total
+counts = matrix(c(716,1236,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(40,75,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(72,85,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs All PSD
+counts = matrix(c(40,75,716,1236), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs All PSD
+counts = matrix(c(72,85,716,1236), nrow = 2)
+fisher.test(counts)
+
+# Fig.7a (Enrichment of Down- or Up-regulated genes)
+
+# All PSD vs Total
+counts = matrix(c(174,542,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(22,18,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(10,62,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs All PSD
+counts = matrix(c(22,18,174,542), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs All PSD
+counts = matrix(c(10,62,174,542), nrow = 2)
+fisher.test(counts)
+
+# Fig.S17b (Enrichment of ASD risk genes)
+
+# All PSD vs Total
+counts = matrix(c(36,2150,102,16999), nrow = 2)
+fisher.test(counts)
+
+# Cluster 1 vs Total
+counts = matrix(c(5,387,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DDP vs Total
+counts = matrix(c(4,284,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DDP-M vs Total
+counts = matrix(c(1,170,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(0,117,102,16999), nrow = 2)
+fisher.test(counts)
+
+# Cluster 2 vs Total
+counts = matrix(c(18,1020,102,16999), nrow = 2)
+fisher.test(counts)
+
+# Cluster 3 vs Total
+counts = matrix(c(13,743,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DIP vs Total
+counts = matrix(c(6,261,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DIP-M vs Total
+counts = matrix(c(5,173,102,16999), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(5,159,102,16999), nrow = 2)
+fisher.test(counts)
+
+# Fig.S17c (Enrichment of SFARI ASD genes)
+
+# All PSD vs Total
+counts = matrix(c(291,1895,968,16133), nrow = 2)
+fisher.test(counts)
+
+# Cluster 1 vs Total
+counts = matrix(c(34,358,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DDP vs Total
+counts = matrix(c(23,265,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DDP-M vs Total
+counts = matrix(c(14,157,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(11,106,968,16133), nrow = 2)
+fisher.test(counts)
+
+# Cluster 2 vs Total
+counts = matrix(c(132,906,968,16133), nrow = 2)
+fisher.test(counts)
+
+# Cluster 3 vs Total
+counts = matrix(c(125,631,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DIP vs Total
+counts = matrix(c(48,219,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DIP-M vs Total
+counts = matrix(c(33,145,968,16133), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(33,131,968,16133), nrow = 2)
+fisher.test(counts)
