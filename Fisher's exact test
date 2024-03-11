@@ -1,47 +1,3 @@
-# Fig.7a (Enrichment of DE genes)
-
-# All PSD vs Total
-counts = matrix(c(716,1236,3749,8748), nrow = 2)
-fisher.test(counts)
-
-# DDP-MH vs Total
-counts = matrix(c(40,75,3749,8748), nrow = 2)
-fisher.test(counts)
-
-# DIP-MH vs Total
-counts = matrix(c(72,85,3749,8748), nrow = 2)
-fisher.test(counts)
-
-# DDP-MH vs All PSD
-counts = matrix(c(40,75,716,1236), nrow = 2)
-fisher.test(counts)
-
-# DIP-MH vs All PSD
-counts = matrix(c(72,85,716,1236), nrow = 2)
-fisher.test(counts)
-
-# Fig.7a (Enrichment of Down- or Up-regulated genes)
-
-# All PSD vs Total
-counts = matrix(c(174,542,1684,2065), nrow = 2)
-fisher.test(counts)
-
-# DDP-MH vs Total
-counts = matrix(c(22,18,1684,2065), nrow = 2)
-fisher.test(counts)
-
-# DIP-MH vs Total
-counts = matrix(c(10,62,1684,2065), nrow = 2)
-fisher.test(counts)
-
-# DDP-MH vs All PSD
-counts = matrix(c(22,18,174,542), nrow = 2)
-fisher.test(counts)
-
-# DIP-MH vs All PSD
-counts = matrix(c(10,62,174,542), nrow = 2)
-fisher.test(counts)
-
 # Fig.S17b (Enrichment of ASD risk genes)
 
 # All PSD vs Total
@@ -124,4 +80,48 @@ fisher.test(counts)
 
 # DIP-MH vs Total
 counts = matrix(c(33,131,968,16133), nrow = 2)
+fisher.test(counts)
+
+# Fig.S18a (Enrichment of DE genes)
+
+# All PSD vs Total
+counts = matrix(c(716,1236,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(40,75,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(72,85,3749,8748), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs All PSD
+counts = matrix(c(40,75,716,1236), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs All PSD
+counts = matrix(c(72,85,716,1236), nrow = 2)
+fisher.test(counts)
+
+# Fig.S18a (Enrichment of Down- or Up-regulated genes)
+
+# All PSD vs Total
+counts = matrix(c(174,542,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs Total
+counts = matrix(c(22,18,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs Total
+counts = matrix(c(10,62,1684,2065), nrow = 2)
+fisher.test(counts)
+
+# DDP-MH vs All PSD
+counts = matrix(c(22,18,174,542), nrow = 2)
+fisher.test(counts)
+
+# DIP-MH vs All PSD
+counts = matrix(c(10,62,174,542), nrow = 2)
 fisher.test(counts)
