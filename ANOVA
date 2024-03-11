@@ -1,0 +1,58 @@
+# Supplementary Data 2
+proteome <- read.table("SuppData_2.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein2186~age)
+
+# Supplementary Data 5
+proteome <- read.table("SuppData_5.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein1960~age)
+
+# Supplementary Data 6
+proteome <- read.table("SuppData_6.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein3535~age)
+
+# Supplementary Data 7
+proteome <- read.table("SuppData_7.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein3845~age)
+
+# Supplementary Data 8
+proteome <- read.table("SuppData_8.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein3088~age)
+
+# Supplementary Data 9
+proteome <- read.table("SuppData_9.txt", header=T)
+attach(proteome)
+oneway.test(protein1~age)
+oneway.test(protein2~age)
+oneway.test(protein3~age)
+### repeat until the end
+oneway.test(protein3586~age)
+
+# P-value correction with Benjamini–Hochberg method
+proteome <- read.table("P-value_list.txt")
+mat=as.matrix(proteome)
+p.adjust(mat, "BH")
