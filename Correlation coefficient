@@ -268,13 +268,6 @@ y1 <- data[,2]
 sp <-cor.test(x1, y1,  method = "spearman")
 sp
 
-# Fig.7b
-data <- read.table("Data_Fig7b_CC.txt", header=T)
-x1 <- data[,1]
-y1 <- data[,2]
-sp <-cor.test(x1, y1,  method = "spearman")
-sp
-
 # Fig.S5a (Dataset 1)
 data <- read.table("Data_FigS5a_CC_Dataset1_E14.txt", header=T)
 x1 <- data[,1]
@@ -618,4 +611,11 @@ data <- read.table("Data_FigS15d_CC_DDPandDIP-MH.txt", header=T)
 x1 <- data[,1]
 y7 <- data[,8]
 sp <-cor.test(x1, y7,  method = "spearman")
+sp
+
+# Fig.S18b
+data <- read.table("Data_FigS18b_CC.txt", header=T)
+x1 <- data[,1]
+y1 <- data[,2]
+sp <-cor.test(x1, y1,  method = "spearman")
 sp
